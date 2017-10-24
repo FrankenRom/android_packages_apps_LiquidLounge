@@ -928,4 +928,7 @@
     <string name="dialog_pick_iconpack_title">Pick icon pack</string>
     <string name="default_iconpack_title">Default icons</string>
 
+    <!-- Stock recents -->
+    <string name="stock_recents_title">Stock recents</string>
+
 </resources>
