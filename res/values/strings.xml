@@ -963,4 +963,8 @@
     <string name="slim_blacklist_add_apps_title">Add app</string>
     <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
 
+    <!-- Show 4G instead of LTE -->
+    <string name="show_4g_title">Show 4G</string>
+    <string name="show_4g_summary">Show 4G instead of LTE signal icon</string>
+
 </resources>
