@@ -779,4 +779,10 @@
 	<string name="incall_notifications_vibrate">Less annoying in-call notifications</string>
     <string name="incall_notifications_vibrate_summary">Vibrate instead of playing a sound for in-call notifications</string>
 
+    <!-- Screen off animation -->
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
+    <string name="screen_off_animation_title">Screen off animation</string>
+
 </resources>
