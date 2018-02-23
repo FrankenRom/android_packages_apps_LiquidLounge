@@ -94,6 +94,14 @@
 			android:summary="@string/pulse_settings_summary"
             android:fragment="com.liquid.liquidlounge.fragments.PulseSettings" />
 
+         <!-- Edge gestures -->
+         <Preference
+            android:id="@+id/edge_gestures"
+            android:key="edge_gestures"
+            android:fragment="com.liquid.liquidlounge.fragments.EdgeGesturesSettings"
+            android:title="@string/edge_gestures_title"
+            android:icon="@drawable/ic_edge_gestures"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
