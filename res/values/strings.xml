@@ -360,8 +360,8 @@
     <string name="heads_up_snooze_20min">20 minutes</string>
 	
     <!-- Liquid statusbar logo -->
-    <string name="status_bar_logo_title">Liquid logo</string>
-    <string name="status_bar_logo_summary">Allow Liquid logo on your statusbar</string>
+    <string name="status_bar_logo_title">Franken logo</string>
+    <string name="status_bar_logo_summary">Allow Franken logo on your statusbar</string>
 
     <!-- Disable QS on secure lock screen -->
     <string name="lockscreen_qs_disabled_title">No QS when secured</string>
@@ -659,7 +659,7 @@
 	
 	<!-- Custom carrier label and position -->
     <string name="carrier_label_title">Carrier label</string>
-    <string name="custom_carrier_label_title">Liquid carrier label</string>
+    <string name="custom_carrier_label_title">Franken carrier label</string>
     <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
     <string name="show_carrier_title">Carrier label</string>
@@ -774,6 +774,6 @@
 
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
-    <string name="notification_guts_kill_app_button_summary">Show a kill app button in notifaction shade</string>
+    <string name="notification_guts_kill_app_button_summary">Show a kill app button in notification shade</string>
 
 </resources>
