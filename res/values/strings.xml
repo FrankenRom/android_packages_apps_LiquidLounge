@@ -59,6 +59,10 @@
     <!-- Status bar -->
     <string name="statusbar_title">Status bar</string>
     <string name="statusbar_summary">Hide or show system icons and network traffic stats</string>
+	
+	<!-- ScreenShot -->
+    <string name="screenshot_title">ScreenShot</string>
+    <string name="screenshot_summary">Control how your screenshots work</string>
 
     <!-- Other categories -->
     <string name="heads_up_title">Heads up</string>
@@ -785,5 +789,9 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
     <string name="screen_off_animation_title">Screen off animation</string>
+	
+	<string name="screenshot_edit_app">Screenshot edit app</string>
+    <string name="screenshot_edit_app_summary">Choose which app should be launched when tapping on the screenshot notification edit button</string>
+    <string name="screenshot_edit_app_no_editor">No image editor available</string>
 
 </resources>
