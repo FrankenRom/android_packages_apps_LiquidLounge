@@ -50,6 +50,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     private static final String SCROLLINGCACHE_DEFAULT = "2";
     private static final String KEY_SCREEN_OFF_ANIMATION = "screen_off_animation";
 	private static final String PREF_TILE_ANIM_STYLE = "qs_tile_animation_style";
+	private static final String KEY_SMART_PIXELS = "smart_pixels";
 	private static final String PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
 	private static final String PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
 
@@ -104,10 +105,10 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
         boolean enableSmartPixels = getContext().getResources().
                 getBoolean(com.android.internal.R.bool.config_enableSmartPixels);
-        Preference SmartPixels = findPreference("smart_pixels");
+        Preference SmartPixels = findPreference(KEY_SMART_PIXELS);
 
         if (!enableSmartPixels){
-            getPreferenceScreen().removePreference(SmartPixels);
+            SmartPixels.getParent().removePreference(SmartPixels);
         }
     }
 
