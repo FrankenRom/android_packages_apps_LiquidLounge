@@ -661,7 +661,7 @@
     <string name="pref_scrollingcache_default_disable">Default disable</string>
     <string name="pref_scrollingcache_force_disable">Force disable</string>
 	
-	<!-- Custom carrier label and position -->
+    <!-- Custom carrier label and position -->
     <string name="carrier_label_title">Carrier label</string>
     <string name="custom_carrier_label_title">Franken carrier label</string>
     <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
@@ -672,11 +672,11 @@
     <string name="show_carrier_statusbar">Statusbar only</string>
     <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
 	
-	<!-- Pocket judge -->
+    <!-- Pocket judge -->
     <string name="pocket_judge_title">Pocket detection</string>
     <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 
-	<!-- Less Notification sounds -->
+    <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Notification sounds</string>
     <string name="less_notification_sounds_summary">Play the notification sound of each app only once per set time period</string>
     <string name="less_notification_sounds_default">Default Behaviour</string>
@@ -790,11 +790,11 @@
     <string name="screen_off_animation_scale">Scale</string>
     <string name="screen_off_animation_title">Screen off animation</string>
 	
-	<string name="screenshot_edit_app">Screenshot edit app</string>
+    <string name="screenshot_edit_app">Screenshot edit app</string>
     <string name="screenshot_edit_app_summary">Choose which app should be launched when tapping on the screenshot notification edit button</string>
     <string name="screenshot_edit_app_no_editor">No image editor available</string>
 	
-	<!-- QuickSettings Panel Transparency -->
+    <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">Transparency</string>
 
     <!-- Tiles animation style  -->
@@ -830,5 +830,9 @@
     <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
     <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
     <string name="status_bar_show_image">Show image</string>
+	
+    <!-- System default animation -->
+    <string name="system_default_animation_title">Android P animation style</string>
+    <string name="system_default_animation_summary">Enable Android P \"Default\" animations</string>
 
 </resources>
