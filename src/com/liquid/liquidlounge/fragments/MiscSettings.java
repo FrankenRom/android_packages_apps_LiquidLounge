@@ -101,6 +101,14 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         mTileAnimationInterpolator.setValue(String.valueOf(tileAnimationInterpolator));
         updateTileAnimationInterpolatorSummary(tileAnimationInterpolator);
         mTileAnimationInterpolator.setOnPreferenceChangeListener(this);
+
+        boolean enableSmartPixels = getContext().getResources().
+                getBoolean(com.android.internal.R.bool.config_enableSmartPixels);
+        Preference SmartPixels = findPreference("smart_pixels");
+
+        if (!enableSmartPixels){
+            prefScreen.removePreference(SmartPixels);
+        }
     }
 
     @Override
