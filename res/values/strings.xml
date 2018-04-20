@@ -971,4 +971,9 @@
     <string name="qs_running_services_title">Running services icon</string>
     <string name="qs_running_services_summary">Disable the tile running services icon in the footer</string>
 
+    <!-- lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Lock screen visualizer</string>
+    <string name="lockscreen_visualizer_summary">Displays a live design on lock screen while music is playing (works with most audio apps)</string>
+
+
 </resources>
