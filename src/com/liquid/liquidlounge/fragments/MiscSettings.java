@@ -107,7 +107,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         Preference SmartPixels = findPreference("smart_pixels");
 
         if (!enableSmartPixels){
-            prefScreen.removePreference(SmartPixels);
+            getPreferenceScreen().removePreference(SmartPixels);
         }
     }
 
