@@ -907,5 +907,14 @@
     <string name="smart_pixels_percent">Percent of pixels to disable</string>
     <string name="smart_pixels_shift">Prevent burn-in by shifting pixels every</string>
     <string name="smart_pixels_warning_text">Smart Pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend setting the amount of disabled pixels to 75 percent while shifting every 10 minutes.</string>
+	
+	<!-- Hide Lockscreen clock, date, alarm -->
+    <string name="lockscreen_item_category">Lockscreen items</string>
+    <string name="show_lockscreen_clock_title">Clock widget</string>
+    <string name="show_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
+    <string name="show_lockscreen_date_title">Date widget</string>
+    <string name="show_lockscreen_date_summary">Change the date\'s visibility underneath the clock widget</string>
+    <string name="show_lockscreen_alarm_title">Alarm text</string>
+    <string name="show_lockscreen_alarm_summary">Change the alarm text\'s visibility underneath the clock widget</string>
 
 </resources>
