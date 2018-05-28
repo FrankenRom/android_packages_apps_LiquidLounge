@@ -81,4 +81,10 @@
         android:title="@string/powermenu_soundpanel"
         android:defaultValue="false" />
 
+    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+        android:key="wallpaper_power_menu_tint"
+        android:title="@string/wallpaper_tint_power_menu"
+        android:summary="@string/wallpaper_tint_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
