@@ -24,6 +24,7 @@ import android.provider.Settings;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.internal.util.liquid.LiquidUtils;
@@ -34,8 +35,10 @@ public class GesturesSettings extends SettingsPreferenceFragment implements
           Preference.OnPreferenceChangeListener {
 
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+    private static final String USE_GESTURE_NAVIGATION = "use_bottom_gesture";
 
     private ListPreference mTorchPowerButton;
+    private SwitchPreference mGestureNavigation;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,6 +48,11 @@ public class GesturesSettings extends SettingsPreferenceFragment implements
 
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+	mGestureNavigation = (SwitchPreference) findPreference(USE_GESTURE_NAVIGATION);
+        mGestureNavigation.setChecked(Settings.System.getInt(resolver,
+               Settings.System.USE_BOTTOM_GESTURE_NAVIGATION, 0) == 1);
+        mGestureNavigation.setOnPreferenceChangeListener(this);
 
         if (!LiquidUtils.deviceHasFlashlight(getContext())) {
             Preference toRemove = prefScreen.findPreference(TORCH_POWER_BUTTON_GESTURE);
@@ -76,6 +84,11 @@ public class GesturesSettings extends SettingsPreferenceFragment implements
                 Settings.Secure.putInt(resolver, Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
                         1);
             }
+            return true;
+        } else if (preference == mGestureNavigation) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.USE_BOTTOM_GESTURE_NAVIGATION, value ? 1 : 0);
             return true;
         }
         return false;
