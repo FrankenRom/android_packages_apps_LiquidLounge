@@ -1008,7 +1008,7 @@
     <string name="volume_dialog_dim">Volume dialog dim background amount</string>
 	
 	<!-- Bottom Navigations -->
-    <string name="use_bottom_gesture_title">Use swipe up gestures for navigation</string>
+    <string name="use_bottom_gesture_title">OnePlus style gestures</string>
     <string name="use_bottom_gesture_summary">Works only with navigation bar disable</string>
 
 </resources>
